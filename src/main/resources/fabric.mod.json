@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "keylion",
+  "version": "${version}",
+  "name": "KeyLion",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/keylion/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "vin.howe.keylion.KeyLionClient"
+    ]
+  },
+  "mixins": [
+    "keylion.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.16.5"
+  }
+}

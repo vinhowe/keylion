@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "vin.howe.keylion.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "HandledScreenMixin",
+    "PlayerInventoryMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
